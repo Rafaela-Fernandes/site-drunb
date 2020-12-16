@@ -1,0 +1,149 @@
+/*sesao destaque mobile */
+
+
+
+
+/*sesao  premium*/
+
+@media screen and (max-width:390px) {
+
+    #container-texto-premium h1 {
+        font-size: 2em;
+
+
+    }
+
+    #container-texto-premium a {
+
+        width: 75%
+    }
+    
+    
+    
+#sessao-premium {
+    padding: 2rem;
+}
+
+}
+
+
+
+@media screen and (min-height: 1024px) {
+
+
+    #container-texto-premium a {
+
+        width: 30%;
+
+    }
+
+}
+
+
+/*sesao destaque treino*/
+
+@media screen and (max-width:390px) {
+
+
+
+    #sessao-treino div h1 {
+
+        font-size: 2em;
+    }
+
+
+
+    #sessao-treino {
+        padding: 2rem 2rem 2rem 2rem;
+
+    }
+
+    .treino .slick-prev {
+        left: -14px !important;
+    }
+
+    .treino .slick-next {
+        right: 15px !important;
+    }
+
+
+    .card-white {
+
+        max-width: 80% !important;
+    }
+    .treino.slick-dotted.slick-slider {
+        margin-bottom: 160px;
+    }
+
+}
+
+
+    /*sesao depoimento*/
+    @media screen and (max-width:390px) {
+        #texto-depoimento h1 {
+
+            font-size: 2rem !important;
+        }
+
+
+        #texto-depoimento {
+            padding: 1.5rem;
+        }
+
+    }
+
+
+    /*sesao destaque final*/
+    @media screen and (max-width:390px) {
+        .posicao h1 {
+
+            font-size: 0.9em;
+        }
+
+        .link a {
+            font-size: 0.5em !important;
+            padding: 0.1rem !important;
+            width: 75% !important
+        }
+
+        #img-destaque-final {
+
+            height: 200px;
+        }
+
+        .div-btn {
+            margin-top: 1rem !important
+        }
+        .div-links a img {
+
+            width: 25% !important
+        }
+
+        .div-links span {
+            font-size: 0.5em
+        }
+
+        .link-div {
+            margin-top: 1rem !important
+        }
+
+
+
+
+        .links-footer {
+            width: 30%
+        }
+
+        #menu-footer a {
+            padding: 0.2rem 0.2rem;
+            font-size: 0.5em
+        }
+    }
+
+
+
+
+
+
+
+    /*----- problema bota -----*/ 

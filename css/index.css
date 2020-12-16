@@ -1,0 +1,463 @@
+body {
+
+    overflow-x: hidden;
+    font-family: ._SFUIText-Bold;
+    height: 100%;
+   
+
+
+}
+
+#fone{
+    position: absolute;
+    left:0;
+    top: 1050px
+        
+}
+#tenis{
+    position: absolute;
+    right:0;
+    top: 400px
+}
+
+
+@font-face {
+    font-family: ._SFUIText-Bold;
+    src: url("../fonte/._SFUIText-Bold.ttf")
+}
+
+#menu li a {
+
+    color: black;
+    font-weight: 600;
+
+}
+
+#menu li a:hover {
+    color: #d30f4d;
+
+
+}
+
+.suporte a {
+    color: #f33661 !important;
+}
+
+/*-------- css destque-------------*/
+
+
+#div-texto-destaque p:first-child {
+
+
+    font-size: 5.5em;
+    color: #f33661;
+    line-height: 1.1;
+    font-weight: bold
+}
+
+#div-texto-destaque {
+    margin-top:8rem;
+    float:right
+}
+
+#div-img {
+
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 1327px;
+    
+}
+
+#btn-destaque a {
+
+    border-radius: 50px !important;
+    width: 50%;
+    margin-top: 6%;
+    padding: 0.8rem;
+}
+
+
+#btn-destaque a:first-child {
+    background: #f33661;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+#btn-destaque a:last-child {
+    background: #FFF;
+    color: #f33661;
+    border: solid #f33661 1px;
+}
+
+
+#btn-destaque a:hover {
+    background: #b72547;
+    border: solid #b72547 1px;
+    color: #fff;
+    transition: all 1s;
+}
+
+
+
+
+/*---------- css sessao premium -----------*/
+
+#sessao-premium {
+
+    padding: 3rem 0 8rem 0;
+  
+}
+
+
+#container-texto-premium h1 {
+
+    color: #f33661;
+    font-size: 4.5rem
+
+}
+
+
+
+#container-texto-premium h5 {
+
+    color: #f33661;
+    font-weight: 700;
+
+}
+
+
+#sessao-premium a {
+    background: #FFF;
+    color: #f33661;
+    border: solid #f33661 1px;
+    border-radius: 50px;
+    width: 30%;
+    font-weight: 600;
+    margin-top: 5rem;
+}
+
+
+
+#sessao-premium a:hover {
+    background: #d30f4d;
+    color: #FFF;
+    transition: all 1s;
+}
+
+
+
+.slick-prev:before,
+.slick-next:before {
+    font-size: 50px !important
+}
+
+
+.slick-prev {
+    left: -50px !important;
+}
+
+#sessao-treino div h1 {
+    font-size: 5em;
+}
+
+#sessao-treino {
+
+    padding: 5rem 10rem 5rem 10rem;
+    background: #d30f4d;
+
+}
+
+
+.card-white:hover {
+
+    cursor: pointer;
+
+    opacity: 0.8;
+    transition: all 2s;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.1);
+
+}
+
+
+.card-white {
+
+    max-width: 90% !important
+}
+
+.treino h5 {
+    color: #f33661;
+    font-weight: 600;
+}
+
+.slick-dots li button:before {
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFF;
+    opacity: inherit;
+    padding-top: 2rem;
+
+
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #d30f4d;
+    text-shadow: #FFF 1px -1px, #FFF -1px 1px, #FFF 1px 1px, #FFF -1px -1px;
+    padding-top: 2rem;
+}
+
+
+/*--------------------------------------------------------------------*/
+
+.depoimento a:hover {
+
+    cursor: pointer;
+
+
+    transition: all 2s;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.1);
+
+}
+
+.depoimento .slick-dots {
+    top: ;
+}
+
+#sessao-depoimento h1 {
+
+    color: #f33661
+}
+
+
+.depoimento li button:before {
+    font-size: 20px;
+    line-height: 20px;
+    color: #e4dfdf;
+    opacity: inherit;
+
+
+}
+
+
+
+.depoimento li.slick-active button:before {
+    opacity: .75;
+    color: #d30f4d;
+
+    text-shadow: #FFF 1px -1px, #FFF -1px 1px, #FFF 1px 1px, #FFF -1px -1px
+}
+
+
+
+
+/*--------------------------------------------------------------------*/
+
+#sessao-destaque-final {
+    margin-top: 10rem
+}
+
+#img-destaque-final {
+    background-image: url(../images/destaque-final.png);
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.img-final {
+    width: 25%;
+}
+
+.posicao {
+
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    max-width: 50%;
+    max-height: 450px;
+}
+
+.posicao h1 {
+    font-weight: bolder;
+    font-size: 4rem;
+    color: #f33661;
+}
+
+.btn-destaque-final {
+
+    background: rgba(255, 255, 255, 0.06);
+    color: #f33661;
+    border: solid #f33661 1px;
+    border-radius: 50px;
+    width: 30%;
+    font-weight: 600;
+
+}
+
+
+
+ .btn-destaque-final:hover {
+    background: #f33661;
+    color: #FFF;
+    transition: all 1s;
+}
+
+
+/*--------------------------------------------------------------------*/
+
+#nav-footer {
+    margin-left: 50% !important
+}
+
+#menu-footer a {
+    color: black;
+    font-size: 0.8rem;
+
+}
+
+
+#menu-footer li:last-child {
+    font-weight: 800;
+}
+
+
+
+
+
+
+#menu-footer li a:hover {
+    color: #d30f4d
+}
+
+
+
+
+/* configuraçõa  para tablet  na folha css mobile n estava funcionando, depois corrigir */
+
+    @media screen and (min-height: 1024px) {
+        .posicao h1 {
+
+            font-size: 1rem;
+        }
+
+
+        .link a {
+            font-size: 0.5em !important;
+            padding: 0.1rem !important;
+            width: 50% !important
+        }
+
+        #img-destaque-final {
+
+            height: 200px;
+        }
+
+        .div-btn {
+            margin-top: 1rem !important
+        }
+        .div-links a img {
+
+            width: 25% !important
+        }
+
+        .div-links span {
+            font-size: 0.5em
+        }
+
+        .link-div {
+            margin-top: 1rem !important
+        }
+
+
+
+    }
+
+/*----------- sessao destaque ------------------*/
+
+@media screen and (max-width: 500px) {
+
+    #div-texto-destaque p:first-child {
+
+        font-size: 2.5em;
+    } 
+    #div-texto-destaque p +p{
+
+        font-size: 0.8em !important;
+    }
+    
+ 
+    #btn-destaque a{
+
+          padding: 0.4rem !important;
+         
+    }
+    #btn-destaque{
+        padding: 0 2rem;
+    }
+    
+    #container-texto{
+        order: 2
+    }
+    #container-img{
+        order: 1
+    }
+   
+    
+    #div-texto-destaque{
+        float:none;
+            margin-top: 1rem;
+    
+    }
+       
+    #tenis, #fone{
+        display: none
+    }
+}
+
+
+@media screen and (max-width: 768px){
+     #div-texto-destaque p:first-child {
+
+        font-size: 2em !important;
+    }
+    
+     #tenis, #fone{
+        display: none !important
+    }
+}
+
+
+
+
+@media screen and (max-width: 2000px) {
+
+    #div-texto-destaque p:first-child {
+
+        font-size: 4em;
+    } 
+    
+   #div-texto-destaque p +p{
+
+        font-size: 1em !important;
+    }
+    
+    
+
+}
+
+
+
+
+
+/*----------- sessao premium ------------------*/
+
+
+
+
